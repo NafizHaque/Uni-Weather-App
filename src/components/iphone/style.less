@@ -1,0 +1,286 @@
+@import '~style/helpers';
+.container { 
+	display: flex;
+	flex-direction: column;
+	background-image: url('../../assets/backgrounds/background.jpg');
+	color: #fff;
+	max-width: 75em;
+	max-height: 75em;
+	padding-right: 1em;
+	padding-left: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 5em;
+	margin: 0 auto;
+	
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.details {
+	flex: 4;
+}
+.city {
+	color: white;
+	flex: 1;
+	font-size: 3.5em;
+	font-weight: 400;
+	text-align: left;
+	padding-left: 1em;	
+}
+.conditions { //styling for weather conditions
+	color: white;
+	flex: 1;
+	text-align: left;
+	padding-left: 2.5em;
+	font-size: 1.5em;
+}
+.temperature { //styling for temperatures
+	color: white;
+	flex: 2;
+	text-align: left;
+	width: 1.7em;
+	padding-left: 0.2em;
+	margin-top: 0;
+	font-size: 13em;
+	font-weight: 300;	
+	letter-spacing: -5px;
+}
+
+
+.filled:after {
+	content: "°";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+
+.humidity { //styling for humidity
+	
+	div{
+
+		color: gwhite;
+		padding-left: 2.5em;
+		font-size: 1.5em;
+		padding-bottom: 3em;
+				
+	}
+	
+	.column1{
+		text-align: left;
+		float: left;
+		width: 32em;
+			
+	}
+	.column2{
+		text-align: left;
+		float: left;
+
+	}
+	
+}
+
+.sunState { //styling for sunrise and sunset information
+	
+	div{
+
+		color: white;
+		padding-top: 1.5em;
+		padding-left: 4.5em;
+		font-size: 1.5em;
+		padding-bottom: 0.5em;	
+		
+	}
+	
+	.columnn1{
+		text-align: left;
+		float: left;
+		width: 32em;
+			
+	}
+	.columnn2{
+		text-align: left;
+		float: left;
+		
+
+
+	}
+
+}
+
+
+.sunnericon { //styling for sunrise and sunset icons
+	
+	div{
+		
+
+		color: white;
+	
+		padding-left: 4.5em;
+		font-size: 1.5em;
+		padding-bottom: 3em;
+		
+		
+	}
+	
+	.rise{
+		text-align: left;
+		float: left;
+		width: 32em;
+			
+	}
+	.set{
+		text-align: left;
+		float: left;
+		
+
+
+	}
+
+}
+
+//stylings for white lines in which will be the 5 day forecast
+.line1{
+	background-image: url(../../assets/icons/whiteline.png);
+	padding-top: 0.5em;
+}
+
+.line2{
+	background-image: url(../../assets/icons/whiteline.png);
+	padding-top: 0.5em;
+}
+
+
+.search{  //styling for search button
+	padding-left: 30em;
+	width: 1em;
+	
+}
+
+.search input{  //styling for the search box itself
+	width: 200px;
+	border-radius: 5px;
+	outline: 0px;
+	padding: 2px 23px 2px 30px;
+	outline: none;
+
+}
+
+
+
+.iconbox{  //styling for forecast icons
+	padding-left: 6em;
+	div{	
+	float: left;
+	}
+
+	.box1{
+		
+		border-radius: 2px;
+		display: inline-block;
+		height: 10em;
+		margin: 1rem;
+		
+		width: 10em;
+
+	}
+
+	.box2{
+		border-radius: 2px;
+		display: inline-block;
+		height: 10em;
+		margin: 1rem;
+		
+		width: 10em;
+	}
+
+	.box3{
+		border-radius: 2px;
+		display: inline-block;
+		height: 10em;
+		margin: 1rem;
+		
+		width: 10em;
+
+	}
+
+	.box4{
+		border-radius: 2px;
+		display: inline-block;
+		height: 10em;
+		margin: 1rem;
+		
+		width: 10em;
+	}
+
+	.box5{
+		border-radius: 2px;
+		display: inline-block;
+		height: 10em;
+		margin: 1rem;
+		
+		width: 10em;
+
+	}
+
+
+
+
+}
+
+.temps{ //styling for forecast data
+	padding-left: 6em;
+	
+
+	div{
+		float: left;
+	}
+
+	.tempD1{
+		border-radius: 2px;
+		font-size: 40px;
+		height: 2em;
+		margin: 1rem;
+		width: 5em;
+	}
+	.tempD2{
+		border-radius: 2px;
+		font-size: 40px;
+		display: inline-block;
+		height: 2em;
+		margin: 1rem;
+		width: 3em;
+	}
+	.tempD3{
+		border-radius: 2px;
+		font-size: 40px;
+		display: inline-block;
+		height: 2em;
+		margin: 1rem;		
+		width: 4em;
+	}
+	.tempD4{
+		border-radius: 2px;
+		font-size: 40px;
+		display: inline-block;
+		height: 2em;
+		margin: 1rem;	
+		width: 4em;
+	}
+	.tempD5{
+		border-radius: 2px;
+		font-size: 40px;
+		display: inline-block;
+		height: 2em;
+		margin: 1rem;
+		width: 5em;
+	}
+
+}
